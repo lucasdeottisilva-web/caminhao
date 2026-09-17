@@ -39,17 +39,29 @@
 </head>
 <body>
   <header>
-<h1>PaginaWeb</h1>
-<p>Modelo de Protótipo</p>
+<h1>/  Modelo de Caminhão
+
+<p>Origem:O percursor a vapor: Antes do modelo a combustão, houve 
+experiências pioneiras como o fardier de Cugnot em 1770, um veículo pesado movido a vapor. 
+</p>
 </header>
 <main>
   <article>
 <img src="  " alt=" Primeira Imagem ">
 
 <div>
-<h2>Primeiro tópico ou item da pesquisa</h2>
+<h2>
+   A invenção de Daimler: Em 1896, Gottlieb Daimler (co-fundador da futura Mercedes-Benz) transformou uma carroça em um veículo motorizado de carga. 
+
+Detalhes do veículo: O caminhão usava um motor a gasolina de 4 cavalos de potência e conseguia carregar até 1,5 tonelada. 
+</h2>
 <p class="artigo-autor">Por: Nome do Aluno </p>
-<p>Paragrafo com as informações esquisadas</p>
+<p> ideal para entremodelos:Principais categorias e tamanhos
+VUC (Veículo Urbano de Carga) ou ¾: Caminhão levgas rápidas em centros urbanos com limite de tamanho. Suporta até cerca de 3 a 4 toneladas. 
+Toco (Semi Pesado): Possui dois eixos (um na frente e um atrás). Conta com capacidade de carga de até 6 toneladas e peso bruto total (PBT) de 16 toneladas. 
+Truck (6x2): Tem o mesmo comprimento básico do toco, mas com um eixo duplo na traseira para suportar mais peso. 
+Carretas e Bitrens: Veículos de grande porte indicados para o transporte rodoviário pesado de cargas de longa distância e escoamento agrícola
+marcas de caminhão :Mercedes-Benz: Marca alemã com forte tradição.
 <button>❤️<span>0</span></button>
 <button>👍<span>0</span></button>
 </div>
@@ -58,9 +70,26 @@
 <img src="  " alt=" Segunda Imagem  ">
 
 <div>
-<h2>Segundo Tópico ou  assunto da pesquisa</h2>
-<p class="artigo-autor">Por: Nome do Aluno</p>
-<p>Paragrafo com as informações pesquisadas</p>
+<h2>Marcas</h2>
+
+<p class="artigo-autor">Por: Nome do Aluno </p>
+<p>Volvo: Fabricante sueca reconhecida pela alta tecnologia, robustez e pela famosa linha FH de pesados.
+Scania: Outra marca sueca de grande prestígio, parte do Grupo Tratou, muito procurada pelo desempenho e economia.
+Volkswagen (VW Caminhões e Ônibus): Produz veículos no Brasil desde os anos 1980, com forte atuação em leves, médios e pesados como o Meteor e o Delivery.
+DAF: Fabricante holandesa do Grupo Paccar, com operação consolidada no Brasil focada em extrapesados como o XF.
+Iveco: Marca de origem italiana com fábrica no país, oferecendo desde modelos leves até pesados para diferentes tipos de carga.
+
+</p>
+<p>Outras marcas: Agrale, Foton, Sinotruk e Volvo (com a linha MAN) também marcam presença no mercado nacional. 
+que anos que vieram os primeiros caminhão:No Mundo
+1770: Surgiu um modelo primitivo movido a vapor na França (o fardier à vapeur), usado para carregar peso, mas bem diferente dos atuais.
+1895: Karl Benz desenhou um veículo de carga com motor de combustão interna.
+1896: Gottlieb Daimler (co-fundador da antecessora da Mercedes-Benz) criou oficialmente o primeiro caminhão a combustão a gasolina do mundo, usando a estrutura de uma carroça com um motor traseiro de 4 cavalos de potência. 
+No Brasil
+1949: A Fábrica Nacional de Motores (FNM) produziu o modelo D7300, muitas vezes citado como pioneiro em montagem/fabricação inicial de pesados no país. 
+1956: A Mercedes-Benz inaugurou sua fábrica em São Bernardo do Campo e lançou o L-312, o primeiro caminhão nacional de fabricação em larga escala. 
+1957 a 1958: Outras marcas como Ford (F600), Chevrolet (6500) e Scania começaram a produzir e montar seus primeiros veículos de carga no território brasileiro. 
+</p>
 <button>❤️<span>0</span></button>
 <button>👍<span>0</span></button>
 </div>
@@ -71,14 +100,25 @@
   const botoes = document.querySelectorAll("button");
   botoes.forEach(function(botao) { 
   let curtiu = false;
-  
+  Volvo: Fabricante sueca reconhecida pela alta tecnologia, robustez e pela famosa linha FH de pesados.
+Scania: Outra marca sueca de grande prestígio, parte do Grupo Tratou, muito procurada pelo desempenho e economia.
+Volkswagen (VW Caminhões e Ônibus): Produz veículos no Brasil desde os anos 1980, com forte atuação em leves, médios e pesados como o Meteor e o Delivery.
+DAF: Fabricante holandesa do Grupo Paccar, com operação consolidada no Brasil focada em extrapesados como o XF.
+Iveco: Marca de origem italiana com fábrica no país, oferecendo desde modelos leves até pesados para diferentes tipos de carga.
+
   botao.addEventListener("click", botaoClicado);
  
   function botaoClicado() {
   console.log("fui clicado");
   let texto = botao.querySelector("span");
  
-  if (curtiu === false) {
+  if (curtiu === false) {modelos:Principais categorias e tamanhos
+VUC (Veículo Urbano de Carga) ou ¾: Caminhão leve, ideal para entregas rápidas em centros urbanos com limite de tamanho. Suporta até cerca de 3 a 4 toneladas. 
+Toco (Semi Pesado): Possui dois eixos (um na frente e um atrás). Conta com capacidade de carga de até 6 toneladas e peso bruto total (PBT) de 16 toneladas. 
+Truck (6x2): Tem o mesmo comprimento básico do toco, mas com um eixo duplo na traseira para suportar mais peso. 
+Carretas e Bitrens: Veículos de grande porte indicados para o transporte rodoviário pesado de cargas de longa distância e escoamento agrícola
+marcas de caminhão :Mercedes-Benz: Marca alemã com forte tradição e fábricas no país desde 1956, destacando-se em linhas como Actros e Atego.
+
   texto.textContent++;
   curtiu = true;
   } else {
